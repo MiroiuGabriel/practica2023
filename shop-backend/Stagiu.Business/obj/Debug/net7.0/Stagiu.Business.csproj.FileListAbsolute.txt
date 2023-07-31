@@ -1,0 +1,12 @@
+C:\programming\C#\Stagiu.Business\bin\Debug\net7.0\Stagiu.Business.deps.json
+C:\programming\C#\Stagiu.Business\bin\Debug\net7.0\Stagiu.Business.dll
+C:\programming\C#\Stagiu.Business\bin\Debug\net7.0\Stagiu.Business.pdb
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.csproj.AssemblyReference.cache
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.AssemblyInfoInputs.cache
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.AssemblyInfo.cs
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.csproj.CoreCompileInputs.cache
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.dll
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\refint\Stagiu.Business.dll
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\Stagiu.Business.pdb
+C:\programming\C#\Stagiu.Business\obj\Debug\net7.0\ref\Stagiu.Business.dll
