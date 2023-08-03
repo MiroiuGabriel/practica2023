@@ -4,7 +4,7 @@ Welcome to the **Practica 2023 Shop**! This application showcases an extensive r
 
 ## Admin privileges
 
-If you want to have admin privileges log in with the following account:
+If you want to have admin privileges sign in with the following account:
 
 Email: admin@gmail.com <br>
 Password: admin
