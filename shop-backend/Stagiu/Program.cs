@@ -72,7 +72,16 @@ builder.Services.AddCors(opts =>
 });
 
 builder.Services.AddTransient<IConnectionString>((x) => new ConnectionString(builder.Configuration.GetConnectionString("DefaultConnectionString")!));
+
 var app = builder.Build();
+
+// initialize database
+{
+    using var scope = app.Services.CreateScope();
+    var context = scope.ServiceProvider.GetRequiredService<IConnectionString>();
+    using var db = new SqlDataContext(context);
+    await db.Init();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
