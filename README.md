@@ -11,17 +11,17 @@ Password: admin
 
 ## Getting Started
 
-To run the Awesome App on your local machine, follow these steps:
+To run the **Practica 2023 Shop** on your local machine, follow these steps:
 
 1. Clone this repository.
 2. Set up the necessary environment variables for authentication and other configurations.
 3. Setting up the server environment variables will be done in `shop-backend/Stagiu/appsettings.json`
-4. Set up database connection in `appsettings.json` which uses the following format:
+4. Set up a database connection in `appsettings.json` which uses the following format:
    `Server={your_server};Database={database};Trusted_Connection=True;TrustServerCertificate=True`.
    Set up `BaseURL` and `Audience` to the same `URL` value (the client `URL`) in `appsettings.json`
-5. In `shop-client/src/axios.config.ts` set baseURL to `Server URL`
-6. Install NPM dependencies in `shop-client` by navigating to it, open a terminal and write `npm i`.
-7. Start the server from your IDE (Microsoft Visual Studio) and launch the application (in terminal or IDE with `npm run dev`).
+5. In `shop-client/src/axios.config.ts` set `baseURL` to `Server URL`
+6. Install NPM dependencies in `shop-client` by navigating to it, opening a terminal, and writing `npm i`.
+7. Start the server from your IDE (Microsoft Visual Studio) and launch the application (in terminal or IDE terminal with `npm run dev`).
 
 ## Showcase
 
@@ -33,11 +33,11 @@ To run the Awesome App on your local machine, follow these steps:
 
 ## Features
 
-Below, you will find a detailed description of the various functionalities and technologies implemented in this project.
+Below is a detailed description of the various functionalities and technologies implemented in this project.
 
 ### Product Filtering
 
-The application allows users to filter products based on query strings, enabling them to quickly find the products they are interested in.
+The application allows users to filter products based on query strings, enabling them to find the products they are interested in quickly.
 
 ### Authentication
 
@@ -46,7 +46,7 @@ The application allows users to filter products based on query strings, enabling
 
 ### Silent Authentication
 
-Silent authentication is implemented to provide a smooth login experience for users. It allows automatic authentication without prompting the user to enter their credentials repeatedly.
+Silent authentication is implemented to provide a smooth sign-in experience for users. It allows automatic authentication without prompting the user to enter their credentials repeatedly.
 
 ### Admin Dashboard
 
@@ -80,4 +80,4 @@ The user interface is skillfully styled using **Tailwind CSS**, providing a refr
 
 ## Contributing
 
-If you are interested in contributing to the Practica 2023 Shop, feel free to submit pull requests or raise issues in the repository. Your contributions are highly appreciated!
+If you are interested in contributing to the Practica 2023 Shop, you can submit pull requests or raise issues in the repository. Your contributions are highly appreciated!
